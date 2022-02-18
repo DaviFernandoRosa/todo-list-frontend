@@ -45,8 +45,7 @@ function App() {
 	}, [])
 
 	return (
-
-		<div className="main">
+               <div className="main">
 			<div className="to-do-list">
 				<h1>To Do List</h1>
 

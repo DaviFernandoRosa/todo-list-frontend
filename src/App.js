@@ -28,6 +28,7 @@ function App() {
 		})
 	}
 
+	
 	function handleAdd() {
 		todoApi('insert', 'post', { "text": "", "active": "true" })
 			.then(data => {
